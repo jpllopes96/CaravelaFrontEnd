@@ -3,6 +3,21 @@
 function enviarOrcamento() {
 		alert("Orçamento enviado com sucesso !");
 }
+
+//Funcao Exibe Menu
+function exibeMenu() {
+		 document.getElementById("mainMenu").style.display = "block";
+		 document.getElementById("topFixo").style.display ="none";
+		 document.getElementById("deslocaMenu").style.marginLeft  ="296px";
+}
+function fechaMenu() {
+		 document.getElementById("mainMenu").style.display = "none";
+		 document.getElementById("topFixo").style.display ="block";
+		 document.getElementById("deslocaMenu").style.marginLeft  ="0px";
+}
+
+
+
 //Mascara telefone
 function mascara(o,f){
     v_obj=o

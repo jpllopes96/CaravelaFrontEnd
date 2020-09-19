@@ -6,8 +6,11 @@
 		background-image: url("../imagens/banner-topo.png");
 		height: 712px;	 
 }
+#deslocaMenu{
+	margin-left:0px;
+}
 	
-.topFixo{
+#topFixo{
     padding-top: 28px;
     padding-left: 55px;
     background-image: url(../imagens/banner-topo.png);
@@ -16,6 +19,7 @@
     position: fixed;
     top: 0;
     left: 0;
+	display:block;
     width: 100%;
 	z-index:1;
 }
@@ -24,6 +28,10 @@
 .menu{		
 		background-image: url("../imagens/menu.png");
 		margin: 15px;
+}
+.menu:hover{
+	cursor:pointer;
+	transform: scale(1.1);
 }
 
 .fraseCentral{		
@@ -593,3 +601,5 @@
 
 
 /* FIM Modal*/
+
+

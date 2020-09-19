@@ -11,6 +11,7 @@
 		  
 		  <script src="js/funcoes.js"></script>
 		  <link rel="shortcut icon" href="imagens/favicon.png" />
+		  <link rel="stylesheet" type="text/css" href="css/menu.css">
 		  <link rel="stylesheet" type="text/css" href="css/style.css">
 		  <title>Caravela</title>
 	</head>
@@ -18,7 +19,7 @@
 		
 			<!-- Cabeçalho -->
 			<div class="container-fluid bground">
-				<div class="topFixo">
+				<div id="topFixo">
 					<div class="row">				
 						<div class="col-md-6">
 							<img class="logo-caravela" title="Caravela"src="imagens/logo.svg">
@@ -32,11 +33,11 @@
 							<a href="tel:+353722-2350" target="_blank" class="telefone">35 3722-2350</a>
 						</div>						
 						<div class="col-md-2">
-							<a href="https://www.instagram.com/agenciacaravela/" target="_blank"><img title="menu" class="menu"src="imagens/menu.png"></a>
+							<img title="menu" class="menu"src="imagens/menu.png" onclick="exibeMenu()">
 						</div>
 					</div>
 				</div>
-					
+				<div id="deslocaMenu">
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="fraseCentral col-md-7"> Mar calmo nunca fez bom marinheiro!</div>
@@ -55,6 +56,7 @@
 					<div class="col-md-4 solicitarOrcamento" data-toggle="modal" data-target="#ModalLongoExemplo"> <img src="imagens/iconeSolicitarOrcamento.png">Solicitar Orçamento<img src="imagens/setaSolicitarOrcamento.png"></div>
 				</div>					
 			</div>
+		</div>
 		
 			<!-- fim cabeçalho -->
 			
@@ -356,10 +358,57 @@
 					</div>
 				  </div>
 				</div>
-			
+			</div>
 			
 			<!-- Fim modal solicitar orcamento -->
-	
+			
+			<!--Menu Principal -->
+			<div id="mainMenu">
+			<br><br>
+			<div class="row">			
+				<div class="col-md-1"></div>
+				<div class="col-md-5">
+					<img src="imagens/logo.svg">
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-2">
+					<img class="fecharMenu" title="Fechar" onclick="fechaMenu()" src="imagens/fecharMenu.png">					
+				</div>
+				<div class="col-md-2"></div>			
+			</div>
+			
+			<!--itens menu -->
+			<div class="itensMenu">
+				<ul>
+					<li><a target="_blank" href="https://www.agenciacaravela.com.br/"></i>Home</a></li>
+					<li><a target="_blank" href="https://www.agenciacaravela.com.br/solucoes"></i>Serviços </a></li>
+					<li><a target="_blank" href="https://www.agenciacaravela.com.br/portfolios"></i>Cases </a></li>
+					<li><a target="_blank" href="https://www.agenciacaravela.com.br/sobre"></i>Blog </a></li>
+					<li><a target="_blank" href="https://www.agenciacaravela.com.br/"></i>Orçamentos </a></li>
+				</ul>
+			</div>
+			<div class="row contatoMenu">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<a href="tel:+353722-2350" target="_blank" class="footerMenu">35 3722-2350</a>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<a href="https://www.instagram.com/agenciacaravela/" target="_blank"><i class="fa fa-instagram menuInsta"></i></a>
+					<a href="https://www.facebook.com/agcaravela" target="_blank"><i class="fa fa-facebook menuFb"></i></a>
+					<a href="https://wa.me/5519992081471" target="_blank"><i class="fa fa-whatsapp menuWpp"></i></a>
+				</div>
+				
+			</div>
+			<div class="row enderecoMenu">
+			<div class="col-md-2"></div>
+				<div class="col-md-10">
+					Rua Rio Grande do Sul, 1182 - Centro Poços de <br>Caldas MG - CEP 37701-001
+				</div>				
+			</div>
+			
+		</div>
+			<!-- Fim menu Principal -->
 	
 	
 		<!--Bootstrap-->

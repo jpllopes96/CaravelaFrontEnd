@@ -1,0 +1,78 @@
+
+#mainMenu{
+	width:483px;
+	height: 712px;
+	background: #333333;
+	display:none;
+	margin-top:-315%
+}
+
+.itensMenu{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+	color: #808080;
+	text-decoration:none;
+	text-align:center;
+	margin-top:50px;
+	margin-right: 157px;
+	
+}
+.fecharMenu:hover{
+	cursor:pointer;
+	transform: scale(1.1);
+}
+a{
+	text-decoration:none;
+	color: #808080;
+}
+a:hover{
+	text-decoration:none;
+	color: #00FFB2; 
+	
+                   
+}
+li{
+	list-style-type: none;
+	margin: 25px;
+}
+.contatoMenu{
+	margin-top:100px;
+}
+.footerMenu{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 100%;
+	color: #74A798;
+}
+.footerMenu:hover{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 100%;
+	color: #74A798;
+}
+.menuInsta{
+	color: #74A798;
+}
+.menuWpp{
+	color: #74A798;
+}
+.menuFb{
+	color: #74A798;
+}
+.enderecoMenu{
+	margin-top:30px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+	color: #74A798;
+}
