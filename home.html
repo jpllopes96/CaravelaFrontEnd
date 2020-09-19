@@ -8,6 +8,8 @@
 		  <!-- Icones Sociais -->
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		  <!-- Fim Icones Sociais-->
+		  
+		  <script src="js/funcoes.js"></script>
 		  <link rel="shortcut icon" href="imagens/favicon.png" />
 		  <link rel="stylesheet" type="text/css" href="css/style.css">
 		  <title>Caravela</title>
@@ -50,7 +52,7 @@
 				<div class="row">
 					<div class="col-md-2"></div>
 					<div class="fraseHabito col-md-6"> Nós temos o hábito!</div>
-					<div class="col-md-4 solicitarOrcamento"> <img src="imagens/iconeSolicitarOrcamento.png">Solicitar Orçamento<img src="imagens/setaSolicitarOrcamento.png"></div>
+					<div class="col-md-4 solicitarOrcamento" data-toggle="modal" data-target="#ModalLongoExemplo"> <img src="imagens/iconeSolicitarOrcamento.png">Solicitar Orçamento<img src="imagens/setaSolicitarOrcamento.png"></div>
 				</div>					
 			</div>
 		
@@ -286,7 +288,7 @@
 						<a href="https://www.instagram.com/agenciacaravela/" target="_blank"><i class="fa fa-instagram instaRP"></i></a>
 						<a href="https://www.facebook.com/agcaravela" target="_blank"><i class="fa fa-facebook faceRP"></i></a>
 						<a href="https://wa.me/5519992081471" target="_blank"><i class="fa fa-whatsapp wppRP"></i></a>
-						<a href="tel:+353722-2350" target="_blank" class="telefone">35 3722-2350</a>						
+											
 					</div>
 				</div>
 				<div class="row">
@@ -294,14 +296,71 @@
 						Rua Rio Grande do Sul, 1182 - Centro Poços de <br>Caldas MG - CEP 37701-001
 					</div>
 					<div class="col-md-2"></div>
-					<div class="col-md-4 solicitarOrcamentoRp">Solicitar Orcamento <img width="43px;"src="imagens/setaRodape.png"></div>
+					<div class="col-md-4 solicitarOrcamentoRp" data-toggle="modal" data-target="#ModalLongoExemplo">Solicitar Orcamento <img width="43px;"src="imagens/setaRodape.png"></div>
 				</div>				
 			</div>
 				
 			
-			<!-- fim cabeçalho -->
+			<!-- fim Rodapé -->
 		
-		
+			<!--MODAL SOLICITAR ORCAMENTO -->
+			<!-- Botão para acionar modal -->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalLongoExemplo">
+				  Abrir modal de demonstração
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+					<div class="modal-content">
+					  <div class="modal-header">
+						<h5 class="modal-title tituloModal" id="TituloModalLongoExemplo">Solicitar Orçamento</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+						  <span aria-hidden="true">&times;</span>
+						</button>
+					  </div>
+					  <div class="modal-body">
+						<div class="row descricaoModal">
+							Envie sua mensagem preenchendo os campos abaixo responderemos o mais rápido possível
+						</div>
+						<form role="form" method="post" action="#">
+							<div class="form-group float-label-control">								
+								<input type="text" maxlength="35" name="nome" id="nome" class="form-input" placeholder="Nome">
+							</div>
+							<div class="form-group float-label-control">								
+								<input type="text" maxlength="35" name="email" id="email" class="form-input" placeholder="E-mail">
+							</div>
+							<div class="form-group float-label-control">								
+								<input type="text" maxlength="15" name="telefone" id="telefone" class="form-input" placeholder="Telefone">
+							</div>							
+							<div class="form-group float-label-control">
+								<textarea class="form-input" name="mensagem" id="mensagem" placeholder="Mensagem" rows="10"></textarea>
+							</div>							
+							<input type="image" class="enviarOrcamento" onclick="enviarOrcamento();"src="imagens/imgModal.png" name="enviarOrcamento">
+						</form><br><br>
+						<div class="row">
+						<div class="col-md-2"></div>
+						<div class="footerModal col-md-3">
+							<a href="tel:+353722-2350" target="_blank" class="footerModal">35 3722-2350</a>
+						</div>
+						<div class="col-md-1"></div>
+						
+						<div class="col-md-1"></div>
+						<div class="col-md-4">
+							<a href="https://www.instagram.com/agenciacaravela/" target="_blank"><i class="fa fa-instagram instaModal"></i></a>
+							<a href="https://www.facebook.com/agcaravela" target="_blank"><i class="fa fa-facebook fbModal"></i></a>
+							<a href="https://wa.me/5519992081471" target="_blank"><i class="fa fa-whatsapp wppModal"></i></a>
+						</div>
+						<div class="col-md-1"></div>
+									
+					  </div>
+					
+					</div>
+				  </div>
+				</div>
+			
+			
+			<!-- Fim modal solicitar orcamento -->
 	
 	
 	

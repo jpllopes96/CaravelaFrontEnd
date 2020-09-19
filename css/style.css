@@ -69,8 +69,7 @@
 		color: #FFFFFF;
 }
 
-.telefone{
-	
+.telefone{	
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: normal;
@@ -481,3 +480,114 @@
 
 
 /* FIM Rodapé */
+
+/*MODAL */
+.tituloModal{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+	color: #00FFB2;
+	padding:20px;
+	margin-left: 105px;
+}
+.modal-content{
+	background-color:#333333;
+	height:1024px;
+}
+.close{
+	color:#FFFFFF;
+}
+.modal-header{
+	border-bottom:0px;
+}
+.descricaoModal{
+	 font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    width: 237px;
+    text-align: justify;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-left: 109px;
+    margin-right: 107px;
+}
+.form-input{
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	background-color:#333333;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color:#74A798;
+	line-height: 140%;
+	letter-spacing: 0.04em;	
+	opacity: 0.6;
+	margin-top: 61px;
+	margin: 43px;
+    width: 337px;
+	margin-left: 72px;
+}
+::-webkit-input-placeholder{
+	color:#74A798;
+}
+.form-input:focus{
+	border-top:0px;
+	border-left:0px;
+	outline:none;	
+	border-right:0px;
+	border-bottom: 1px solid #00FFB2;
+	background-color:#333333;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140%;
+	letter-spacing: 0.04em;	
+	opacity: 0.6;
+	margin-top: 61px;	
+	color: #00FFB2;
+	margin-top: 61px;
+	margin: 43px;
+    width: 337px;
+}
+.footerModal{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 100%;
+	color: #74A798;
+	font-size: 14px;
+	margin-left:0px;
+	margin-bottom:33px;	
+	margin-top: 17px;
+}
+.footerModal:hover{
+	text-decoration:none;
+	color: #74A798;
+}
+.enviarOrcamento{
+	margin-left:50px;
+	
+}
+.fbModal{
+	color: #74A798;
+}
+.instaModal{
+	color: #74A798;
+	margin-left: 0px;
+
+}
+.wppModal{
+	color: #74A798;
+}
+
+
+/* FIM Modal*/
