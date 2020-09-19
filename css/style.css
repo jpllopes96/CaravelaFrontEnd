@@ -1,0 +1,483 @@
+
+
+
+/* banner-topo */
+.bground{
+		background-image: url("../imagens/banner-topo.png");
+		height: 712px;	 
+}
+	
+.topFixo{
+    padding-top: 28px;
+    padding-left: 55px;
+    background-image: url(../imagens/banner-topo.png);
+    background-attachment: fixed;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	z-index:1;
+}
+		
+
+.menu{		
+		background-image: url("../imagens/menu.png");
+		margin: 15px;
+}
+
+.fraseCentral{		
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 70px;
+		line-height: 130%;
+		letter-spacing: 0.02em;
+		color: #00FFB2;	
+		margin-bottom:55px;
+		margin-top:13%;
+}
+
+.fraseInferior{
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 170%;
+		color: #FFFFFF;
+}
+.fraseHabito{
+		font-family: Raleway;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 26px;
+		line-height: 170%;
+		color: #FFFFFF;
+}
+
+
+.fa-facebook{
+		margin: 15px;
+		color: #FFFFFF;
+}
+.fa-instagram{
+		margin: 15px;
+		color: #FFFFFF;
+}
+.fa-whatsapp{
+		margin: 15px;
+		color: #FFFFFF;
+}
+
+.telefone{
+	
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 100%;
+	color: #FFFFFF;
+	display:flex;
+	padding-top:7%;
+}
+.telefone:hover{
+	
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	
+	color: #FFFFFF;
+	text-decoration:none;
+}
+
+.solicitarOrcamento{
+	
+   
+    color: #FFFFFF;	
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+	right: 2%;
+}
+
+.solicitarOrcamento:hover{
+	
+    
+	cursor:pointer;
+	
+	transform: scale(1.1);
+	
+	
+}
+
+
+/* FIM banner-topo */
+
+
+/* Corpo*/
+.historia{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 170%;
+	color: #696969;
+	opacity: 0.8;
+	text-align:justify;
+}
+.corpo{
+	padding-top:5%;
+	padding-bottom:5%;
+	text-align:center;
+	width:3000px;
+}
+.titulo{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 54px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+	color: #1D343E;
+}
+.imgCarrossel{
+	width: 280px;
+	height: 314px;
+	border-radius: 12px;
+	padding:1%;
+	margin-left: 2%;
+}
+.nome{
+	position: absolute;
+    top: 71%;
+    left: 27%;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+	color: #00FFB2;
+	
+}
+.carousel-inner{
+	padding:15px;
+}
+.cargo{
+	position: absolute;
+    top: 81%;
+    left: 27%;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 170%; 
+	color: #FFFFFF;
+}
+
+
+.imgCarrossel2{
+	width: 280px;
+	height: 314px;
+	margin-left: 2%;
+	border-radius: 12px;
+	padding:1%;
+	
+}
+.imgCarrossel2:hover{
+	box-shadow: 0px 40px 60px -30px rgba(0, 255, 178, 0.3);
+	border-radius: 12px;
+	cursor:pointer;
+	display: inline-block;
+}
+
+.carrossel{
+	position:relative;
+	margin-left:2%
+}
+
+.carousel-control-prev-icon {
+	background-image: url("../imagens/setaEsqueda.png");  
+    margin-right: 54%; 
+   
+}
+.carousel-control-next-icon{
+	background-image: url("../imagens/setaDireita.png");
+	margin-left:25%;	
+}
+
+/* Sua Empresa*/
+.suaEmpresa{
+	font-family: Poppins;
+	font-style: normal;
+	text-align:center;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 170%;
+	color: #333333;
+	margin-top:33px;
+	margin-bottom:22px;
+}
+.boxServico{
+	background: #FFFFFF;
+	box-shadow: 0px 30px 80px -20px rgba(73, 73, 73, 0.2);
+	border-radius: 8px;
+	height: 367px;
+	margin:20px;
+	padding:30px;
+}
+
+.nomeServico{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+	color: #000000;
+		
+}
+
+.descricaoServico{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+	color: #696969;
+	
+}
+
+/* Fim sua empresa*/
+
+/*nossos projetos */
+.carrossel1{
+	padding:4%;
+	
+}
+.imgCarrossel1{
+    width: 593px;
+    padding: 1%;
+    text-align: center;
+    align-content: center;
+    margin-left: 2%;
+}
+.localProjeto{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 130%;
+	letter-spacing: 0.02em;
+	color: #333333;
+	
+}
+
+.descricaoProjeto{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 140%;
+	color: #696969;
+}
+.icone {
+	background-image: url("../imagens/setaEsqueda.png");  
+    margin-right: 73%; 
+   
+}
+.icone1{
+	background-image: url("../imagens/setaDireita.png");
+	margin-left:91%;	
+}
+
+
+/*Fim nossos projetos*/
+.blogBorder{
+	border-top:1px solid #D5D5D5;	
+	margin-bottom:33px;
+}
+
+.blog{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 170%;
+	padding-left: 5%;
+	color: #1D343E;
+}
+
+.blogVejaMais{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 170%;
+	letter-spacing: 0.02em;
+	color: #333333;	
+	text-decoration:none;
+}
+.blogVejaMais:hover{
+	text-decoration:none;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 170%;
+	letter-spacing: 0.02em;
+	color: #333333;
+}
+.blogHeader{
+	margin-bottom:33px;	
+}
+.imagensBlog{
+	width:382px;
+	height:259px;
+	border-radius:12px;
+	padding-left: 33px;
+	margin-bottom:15px;
+   
+}
+.botao{
+	padding: 6px;
+    padding-left: 18px;
+    display: flex;
+    text-align: center;
+    bottom: :10%;
+    left: 60px;
+    width: 88px;
+    border-radius: 12px;
+    top: 207px;
+    position: absolute;
+	text-decoration:none;
+	color:#333333;
+	font-weight:bold;
+	text-decoration:none;
+	background:#FFFFFF;
+	margin-bottom:15px;
+}
+.tituloBlog{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	padding-left:33px;
+	letter-spacing: 0.02em;
+	color: #333333;	
+	margin-bottom:15px;
+}
+.descricaoBlog{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 170%;
+	color: #696969;
+	padding-left:33px;
+	margin-bottom:3px;	
+}
+.dataBlog{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 170%;
+	color: #74A798;
+}
+.dataHoraBlog{
+	padding-left:33px;
+	margin-bottom:63px;
+}
+.pipeBlog{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 170%;
+	color: #74A798;	
+}
+/*Blog dos marujos*/
+
+/*Fim Blog dos marujos*/
+
+
+/* FIM Corpo */
+
+/* Rodapé */
+
+.footer{
+	border-top: solid 1px  #E1E1E1; 
+	
+	padding: 5%;
+}
+.endereco{  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #74A798;
+}
+
+.faceRP{
+		padding-right:3%;
+		padding-left:3%;
+		text-decoration:none;
+		color:#000000;
+}
+.instaRP{
+		padding-right:3%;
+		padding-left:3%;
+		text-decoration:none;
+		color:#000000;
+		
+}
+.wppRP{
+		padding-right:3%;
+		padding-left:3%;
+		text-decoration:none;
+		color:#000000;
+		
+}
+.telefoneRp{
+	color: #828282;
+	padding-right: 10%;
+	text-decoration:none;
+}
+.telefoneRp:hover{
+	color: #828282;
+	padding-right: 10%;
+	text-decoration:none;
+}
+
+.solicitarOrcamentoRp{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 170%;
+	color: #333333;
+
+}
+.solicitarOrcamentoRp:hover{
+	cursor:pointer;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 170%;
+	color: #333333;
+	transform: scale(1.1);
+	
+}
+.logoRp{
+	margin-bottom:-20px;
+}
+
+
+/* FIM Rodapé */
